@@ -32,7 +32,7 @@ body {
   margin-top: -100px;
 }
 
-button {
+.buttonNav {
   width: 150px;
   height: 50px;
   font-family: Rubik;
@@ -42,7 +42,7 @@ button {
   background-color: Transparent;
 }
 
-button:hover {
+.buttonNav:hover {
   cursor: pointer;
   background-color: #ee4d47;
   border-radius: 5px;
@@ -68,13 +68,14 @@ h1 {
   border-radius: 5px;
   font-size: 16px;
   color: #ffffff;
+  border: none;
 }
 
-#divisor {
+.divisor {
   height: 150px;
 }
 
-#sectionInfo {
+.sectionDefault {
   width: 100%;
   height: 400px;
   display: flex;
@@ -83,7 +84,7 @@ h1 {
   font-family: Rubik;
 }
 
-#infos {
+.box {
   width: 470px;
   height: 380px;
 }
@@ -95,7 +96,7 @@ h2 {
   color: #ee4d47;
 }
 
-#descricao {
+.description {
   font-size: 18px;
   line-height: 30px;
   height: 156px;
@@ -123,7 +124,73 @@ h2 {
   padding-left: 10px;
 }
 
-#imageInfo {
+.imageInfo {
   width: 475px;
   height: 380px;
+}
+
+#subtitle {
+  font-family: DM Serif Display;
+  color: #402b2b;
+  font-size: 43px;
+}
+
+#sectionFaq {
+  width: 100%;
+  height: 400px;
+  font-family: Rubik;
+}
+
+.lineFaq {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cardFaq {
+  width: 400px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#cardButton {
+  width: 400px;
+  height: 70px;
+  background-color: #e4adab;
+  border-radius: 10px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.textFaq {
+  color: #402b2b;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+#textButton {
+  color: #ed4d47;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.verMais {
+  color: #ee4d47;
+  border: none;
+  font-size: 25px;
+  background-color: transparent;
 }
