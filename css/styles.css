@@ -84,6 +84,16 @@ h1 {
   font-family: Rubik;
 }
 
+.sectionFeedback {
+  width: 980px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  /* justify-content: center;
+  align-items: center; */
+  font-family: Rubik;
+}
+
 .box {
   width: 470px;
   height: 380px;
@@ -107,7 +117,7 @@ h2 {
   display: flex;
   width: 470px;
   height: 100px;
-  background-color: #fcddd4;
+  background-color: #fae3dd;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -129,7 +139,7 @@ h2 {
   height: 380px;
 }
 
-#subtitle {
+.subtitle {
   font-family: DM Serif Display;
   color: #402b2b;
   font-size: 43px;
@@ -193,4 +203,36 @@ h2 {
   border: none;
   font-size: 25px;
   background-color: transparent;
+}
+
+#boxFeedback {
+  height: 380px;
+  display: flex;
+  position: absolute;
+  margin-left: 900px;
+}
+
+.cardFeedback {
+  width: 280px;
+  height: 230px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+  border-radius: 10px;
+  margin-top: 100px;
+  padding: 25px;
+  font-size: 16px;
+  color: #402b2b;
+  margin-right: 30px;
+}
+
+.perfilFeedback {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.user {
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
 }
