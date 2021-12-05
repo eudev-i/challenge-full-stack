@@ -11,7 +11,7 @@ const feedbackController = {
       })
 
       if(feedbackCreated != null)
-        return res.redirect("/home")
+        return res.redirect("/")
     } catch (error) {
       return res.render("index", {error: "Erro ao enviar feedback. Tente Novamente mais tarde!"})
     }
